@@ -444,7 +444,58 @@ footer a:hover {
     }
 }
 
-
+@media screen and (max-width: 760px){
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+    }
+    
+    a.btn {
+        font-size: 1em;
+    }
+    
+    /* header */
+    header a.logo {
+        width: 145px;
+        height: 60px;
+    }
+    
+    header div.hero {
+        top: 140px;
+        left: 48%;
+    }
+    
+    /* first section */
+    section#section-1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    section#section-1 aside div.content {
+        background-size: 55px 55px;
+        padding-top: 60px;
+    }
+    
+    /* second section */
+    section#section-2 aside div.content img {
+        widows: 85%;
+    }
+    
+    /* navigation */
+    nav {
+        padding-top: 80px;
+    }
+    
+    nav > ul {
+        padding-left: 10px;
+    }
+}
 
 
 
