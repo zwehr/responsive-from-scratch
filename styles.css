@@ -388,8 +388,27 @@ footer a:hover {
     color: #000;
 }
 
+/* media queries */
 
-
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    
+    /* header */
+    header div.hero {
+        left: 56%;
+    }
+    header div.hero h1 {
+        margin-bottom: 20px;
+    }
+    
+    /* first section */
+    section#section-2 article {
+        padding-left: 400px;
+        background-size: 375px auto;
+    }
+}
 
 
 
