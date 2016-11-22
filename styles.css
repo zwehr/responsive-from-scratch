@@ -280,7 +280,7 @@ nav ul {
 }
 
 nav ul li:hover {
-    background-color: #2b0306;
+    background-color: #cc6633;
 }
 
 nav ul li:hover > ul {
@@ -300,23 +300,15 @@ nav ul li a:visted {
     color: #fff;
 }
 
-nav ul li a:hover {
-    background-color: #6d0911;
-}
-
 nav ul ul {
     position: absolute;
     top: 100%;
-    background-color: #2b0306;
+    background-color: #964514;
     display: none;
 }
 
 nav ul ul li {
     position: relative;
-}
-nav ul ul ul {
-    left: 100%;
-    top: 0px;
 }
 
 /* top level */
@@ -535,7 +527,7 @@ footer a:hover {
         position: static;
         width: auto;
         padding: 20px 15px;
-        background-color: #4b0a0c;
+        background-color: #964514;
     }
     
     nav ul,
