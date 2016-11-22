@@ -65,31 +65,25 @@ a.btn {
 }
 
 a.btn:hover {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .8);
 }
 
 /* header */
 
 header {
     height: 430px;
-    background: #cf0004 url(images/banner_1200.jpg) no-repeat center bottom;
+    background: #000 url(images/banner_1200.jpg) no-repeat center bottom;
     position: relative;
 }
 
 header a.logo {
     z-index: 1;
     position: absolute;
-    display: block;
-    width: 160px;
-    height: 66px;
-    background: url(images/logo.svg) no-repeat 0 0;
-    background-size: contain;
+    font-size: 1.9em;
     top: 15px;
-    left: 20px;
-}
-
-header a.logo span {
-    display: none;
+    left: 30px;
+    text-decoration: none;
+    color: #fff;
 }
 
 header div.hero {
@@ -523,14 +517,13 @@ footer a:hover {
         left: 0px;
         top: 0px;
         background-color: rgba(0, 0, 0, .65);
-        background-size: 112px 46px;
-        background-position: 20px center;
+        text-align: left;
     }
     
     header div.hero {
         width: 320px;
         top: 85px;
-        left: 130px;
+        left: 250px;
     }
     
     header div.hero h1 {
@@ -669,9 +662,9 @@ footer a:hover {
     }
     
     header a.logo {
+        font-size: 1em;
         height: 36px;
-        background: rgba(0, 0, 0, .65) url(images/logo_small.svg) no-repeat center center;
-        background-size: 126px 17px;
+        text-align: center;
     }
     
     header div.hero {
@@ -720,38 +713,3 @@ footer a:hover {
         clear: both;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
